@@ -9,6 +9,8 @@ npm run dev
 # or
 yarn dev
 ```
+Production Link:
+https://react-test-main-okxxdb4ow-sarozmitra.vercel.app
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
