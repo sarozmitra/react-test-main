@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-const useFetchInterestRate = () => {
+export const useFetchInterestRate = () => {
     const [interestRate, setInterestRate] = useState<string>('2.25');
 
     useEffect(() => {
@@ -21,5 +21,3 @@ const useFetchInterestRate = () => {
 
     return { interestRate, setInterestRate };
 };
-
-export default useFetchInterestRate;

@@ -1,7 +1,7 @@
 
 import { useState, useCallback, useEffect } from 'react';
 import { calculateMortgageDetails } from '../../utils/MortgageCalculator/calculateMortgageDetails';
-import useFetchInterestRate from './useFetchInterestRate';
+import { useFetchInterestRate } from './useFetchInterestRate';
 
 
 export interface MortgageResultsProps {

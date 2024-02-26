@@ -1,5 +1,5 @@
 import { renderHook, waitFor } from '@testing-library/react';
-import useFetchInterestRate from './useFetchInterestRate';
+import { useFetchInterestRate } from './useFetchInterestRate';
 import fetchMock from 'jest-fetch-mock';
 
 fetchMock.enableMocks();
