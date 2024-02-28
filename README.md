@@ -9,6 +9,12 @@ npm run dev
 # or
 yarn dev
 ```
+add `.env.local` variable on the root with below example details
+
+`RATE_API_BASE_URL="https://www.bankofengland.co.uk/boeapps/iadb/fromshowcolumns.asp"`
+`RATE_API_DATE_FROM="18/Jan/2024"`
+`RATE_API_DATE_TO="18/Feb/2024"`
+
 Production Link:
 https://react-test-main-okxxdb4ow-sarozmitra.vercel.app
 
@@ -143,4 +149,3 @@ https://www.bankofengland.co.uk/boeapps/iadb/fromshowcolumns.asp?csv.x=yes&Datef
 
 Implement a solution that allows the mortgage calculator to function even when JavaScript is disabled in the user's browser. This will ensure that the website remains accessible and usable for all users.
 
-**We look forward to your solutions and wish you the best of luck!**
