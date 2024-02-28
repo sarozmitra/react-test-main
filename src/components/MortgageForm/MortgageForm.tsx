@@ -41,13 +41,15 @@ export const MortgageForm: React.FC<MortgageFormProps> = ({
     const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
         e.preventDefault();
 
+        let isValid = true;
         if (!propertyPrice || !propertyPrice.toString().trim()) {
             setPropertyPriceError('Enter a property price, for example £100,000.');
+            isValid = false;
         } else {
             setPropertyPriceError(null);
         }
 
-        if (!propertyPriceError) {
+        if (isValid) {
             onCalculate();
         }
     };
